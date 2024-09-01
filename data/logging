@@ -1,0 +1,793 @@
+[32m[2024-08-29    02:14:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    02:14:43]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,database connection closed
+[32m[2024-08-29    02:16:04]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    02:16:05]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[32m[2024-08-29    02:17:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    02:17:22]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[Ljava.lang.StackTraceElement;@240237d2
+[32m[2024-08-29    02:17:44]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    02:17:44]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.StatementManager.setStatement(StatementManager.java:34), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:12), com.disruption.sys.Main.main(Main.java:18)]
+[32m[2024-08-29    02:26:08]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    02:26:08]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.StatementManager.setStatement(StatementManager.java:34), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:12), com.disruption.sys.Main.main(Main.java:18)]
+[32m[2024-08-29    12:10:15]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    12:10:15]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.StatementManager.setStatement(StatementManager.java:34), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:12), com.disruption.sys.Main.main(Main.java:18)]
+[32m[2024-08-29    12:10:31]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    12:13:07]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.StatementManager.setStatement(StatementManager.java:34), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:12), com.disruption.sys.Main.main(Main.java:18)]
+[32m[2024-08-29    12:13:15]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    12:19:06]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.StatementManager.setStatement(StatementManager.java:34), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:12), com.disruption.sys.Main.main(Main.java:18)]
+[32m[2024-08-29    12:19:12]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    12:28:28]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    12:31:12]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    12:31:12]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.StatementManager.setStatement(StatementManager.java:34), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:12), com.disruption.sys.Main.main(Main.java:18)]
+[32m[2024-08-29    17:46:02]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    17:46:03]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:41), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:8), com.disruption.sys.Main.main(Main.java:18)]
+[32m[2024-08-29    17:52:01]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    17:52:01]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:41), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:8), com.disruption.sys.Main.main(Main.java:20)]
+[32m[2024-08-29    17:52:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    17:52:50]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, database connection closed
+[org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:429), org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:23), org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:169), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:41), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:8), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    17:57:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    17:57:17]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, query does not return ResultSet
+[org.sqlite.jdbc3.JDBC3Statement.lambda$executeQuery$1(JDBC3Statement.java:90), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:84), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:8), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:05:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:05:29]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (table finances already exists)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:8), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:08:16]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:09:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:09:21]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (near "Art": syntax error)
+[32m[2024-08-29    18:10:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:10:50]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no tables specified)
+[32m[2024-08-29    18:11:10]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:13:26]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:15:24]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:16:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:16:08]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "*": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.dropField(DatabaseManager.java:63), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:10), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:17:25]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:17:25]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "*": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.dropField(DatabaseManager.java:63), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:10), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:18:27]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:22:54]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:25:59]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:26:15]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:27:20]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:28:13]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:28:31]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:30:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:32:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:32:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:32:46]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:33:02]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:33:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:39:13]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:39:36]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:39:47]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:40:58]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:41:05]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:41:11]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:41:36]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:42:48]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:43:01]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:43:04]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:43:10]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:43:16]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:43:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:43:36]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:43:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:45:23]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:45:23]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (Cannot add a PRIMARY KEY column)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:45:39]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:45:39]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (Cannot add a PRIMARY KEY column)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:46:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:46:17]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near ";": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:46:22]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:46:22]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near ";": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:47:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:47:07]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (Cannot add a PRIMARY KEY column)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:47:18]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:47:55]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:47:55]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "MODIFY": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:48:52]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:48:52]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "MODIFY": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:49:09]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:49:09]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "ALTER": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:49:19]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:49:19]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (duplicate column name: id)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:49:28]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:49:28]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "DELETE": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:49:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:49:40]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "DELETE": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:49:45]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:49:46]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "DELETE": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:50:26]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:50:26]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_LOCKED] A table in the database is locked (database table is locked)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:50:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:50:40]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "FORCE": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:17), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:52:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:52:35]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    18:52:35]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (table FINANCES already exists)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:16), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    18:52:42]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    18:55:23]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:08:01]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:08:01]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near "FIELD": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.addEntry(DatabaseManager.java:91), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:9), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    19:08:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:08:50]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (near ")": syntax error)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.addEntry(DatabaseManager.java:91), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:9), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    19:09:01]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:18:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:18:07]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no such table: INFORMATION_SCHEMA.TABLES)
+[32m[2024-08-29    19:18:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:18:29]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no such table: TABLES)
+[32m[2024-08-29    19:18:41]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:18:41]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no tables specified)
+[32m[2024-08-29    19:19:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:19:17]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (near "FROM": syntax error)
+[32m[2024-08-29    19:19:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:19:29]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+[32m[2024-08-29    19:20:39]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:20:39]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no such table: tables)
+[32m[2024-08-29    19:23:51]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:23:51]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no such column: TABLE_NAME)
+[32m[2024-08-29    19:24:27]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:24:35]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:26:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:26:59]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (near "SELECTFINANCESFROM": syntax error)
+[32m[2024-08-29    19:27:14]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:27:14]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no such column: FINANCES)
+[32m[2024-08-29    19:27:44]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:27:48]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:29:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:30:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:30:19]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:32:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:32:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:32:53]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:33:09]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:33:09]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (1st ORDER BY term out of range - should be between 1 and 1)
+[32m[2024-08-29    19:33:25]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:33:30]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:33:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:34:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:35:19]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:36:02]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:36:13]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:37:10]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:37:16]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:37:16]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (no such table: finances)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.addEntry(DatabaseManager.java:103), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:9), com.disruption.sys.Main.main(Main.java:22)]
+[31m[2024-08-29    19:37:16]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED,[SQLITE_ERROR] SQL error or missing database (no such table: FINANCES)
+[32m[2024-08-29    19:37:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:37:41]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:38:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:38:24]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-08-29    19:38:40]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, [SQLITE_ERROR] SQL error or missing database (table FINANCES already exists)
+[org.sqlite.core.DB.newSQLException(DB.java:1179), org.sqlite.core.DB.newSQLException(DB.java:1190), org.sqlite.core.DB.throwex(DB.java:1150), org.sqlite.core.NativeDB._exec_utf8(Native Method), org.sqlite.core.NativeDB._exec(NativeDB.java:97), org.sqlite.jdbc3.JDBC3Statement.lambda$executeLargeUpdate$2(JDBC3Statement.java:135), org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454), org.sqlite.jdbc3.JDBC3Statement.executeLargeUpdate(JDBC3Statement.java:122), org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:109), com.disruption.sys.DB.DatabaseManager.setStatement(DatabaseManager.java:43), com.disruption.sys.DB.DatabaseManager.createBaseDatabaseStructure(DatabaseManager.java:85), com.disruption.sys.testing.DataBaseTest.verifyDatabaseFunctionality(DataBaseTest.java:9), com.disruption.sys.Main.main(Main.java:22)]
+[32m[2024-08-29    19:39:11]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:39:15]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:39:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:53:47]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:57:23]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:57:49]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    19:58:15]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    20:17:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    20:17:56]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    20:18:04]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    20:34:23]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    20:44:35]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    20:44:48]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-29    20:50:16]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    19:48:49]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    19:58:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:01:28]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:06:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:18:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:19:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:20:06]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:43:13]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:43:55]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:44:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:45:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:46:34]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:47:38]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:49:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:50:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:52:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:53:28]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:53:49]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:53:59]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:54:53]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:55:04]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:55:13]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:55:23]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    20:55:37]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:03:34]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:04:34]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:04:38]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:16:02]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:16:51]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:17:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:17:54]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:19:41]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:21:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:23:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:24:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:25:09]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:25:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:26:39]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:26:53]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:26:59]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:37:05]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:47:36]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:48:39]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:48:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:49]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:49:08]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:49:52]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:50:18]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:50:45]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    21:51:06]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:00:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:07:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:07:36]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:10:42]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:11:26]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:12:24]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:12:55]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:13:24]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:14:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:15:20]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:17:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:23:31]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-08-31    22:24:14]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    00:49:45]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    00:58:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    00:59:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:01:28]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:03:10]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:04:41]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:05:14]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:05:25]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:05:34]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:05:48]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:07:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:08:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:10:26]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:10:37]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:10:53]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:11:03]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:13:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:13:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:13:23]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:15:11]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:17:06]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:17:22]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:17:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:18:20]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:18:30]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    01:41:22]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-09-01    01:41:22]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, not implemented by SQLite JDBC driver
+[31m[2024-09-01    01:41:22]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, not implemented by SQLite JDBC driver
+[32m[2024-09-01    02:19:34]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-09-01    02:19:34]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, not implemented by SQLite JDBC driver
+[31m[2024-09-01    02:19:34]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, not implemented by SQLite JDBC driver
+[32m[2024-09-01    02:30:42]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:36:26]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:36:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:37:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:37:36]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:41:59]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:42:34]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:42:44]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:42:54]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:42:58]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:43:31]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:45:28]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:45:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:45:46]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:46:41]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:46:48]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    02:56:42]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:00:35]     
+[INFORMATION] System Startup complete. Awaiting Input
+[31m[2024-09-01    03:00:35]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, ResultSet closed
+[31m[2024-09-01    03:00:35]     
+[ERROR] ERROR: STATEMENT COULD NOT BE EXECUTED, ResultSet closed
+[32m[2024-09-01    03:05:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:05:33]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:08:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:09:12]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:09:54]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:11:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:11:44]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:11:56]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:12:14]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:13:16]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:15:42]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:16:08]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:16:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:26:25]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:27:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:28:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:28:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:29:03]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:29:27]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:30:16]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:30:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:30:55]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:33:06]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:36:05]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:41:04]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:41:53]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:42:30]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:43:22]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:43:50]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:44:30]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:44:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:45:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:45:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:46:02]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:46:22]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:46:46]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:47:16]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:48:03]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:48:18]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:49:19]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:49:39]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:50:03]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:53:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    03:54:10]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:02:03]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:02:22]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:03:03]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:04:24]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:05:28]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:06:17]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:07:32]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:08:09]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:09:26]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:10:07]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:11:47]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:12:10]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    04:12:39]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:40:42]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:42:05]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:43:18]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:46:31]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:53:21]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:53:39]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:54:51]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:57:06]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:58]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    12:58:45]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:04:10]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:04:29]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:13:20]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:13:54]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:14:44]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:23:20]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:23:37]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:31]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:31:11]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:40:27]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:41:53]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:42:55]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:43:43]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:43:52]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:48:59]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    13:49:57]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:15:20]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:15:41]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:16:11]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:19]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:19:38]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:20:04]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:26:13]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:29:23]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:29:40]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:30:35]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:35:09]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:36:04]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:36:31]     
+[INFORMATION] System Startup complete. Awaiting Input
+[32m[2024-09-01    14:40:14]     
+[INFORMATION] System Startup complete. Awaiting Input
