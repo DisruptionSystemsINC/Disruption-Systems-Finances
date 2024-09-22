@@ -2,19 +2,17 @@ package com.disruption.sys.DB;
 
 import com.disruption.sys.Main;
 import com.disruptionsystems.logging.LogLevel;
-import org.sqlite.jdbc4.JDBC4ResultSet;
-
 import java.sql.*;
+import java.sql.Date;
 import java.util.*;
 
 public class DatabaseManager {
 
-    Connection conn;
+    private Connection conn;
 
     public Connection establishConnection(String databaseAddress) {
         try {
-            Connection connection = DriverManager.getConnection(databaseAddress);
-            conn = connection;
+            conn = DriverManager.getConnection(databaseAddress);
             if (conn != null){
                 return conn;
             }
@@ -38,11 +36,11 @@ public class DatabaseManager {
         return null;
     }
 
-    public void setStatement(String sql) {
+    private void setStatement() {
         Statement statement = null;
         try {
             statement = conn.createStatement();
-            statement.executeUpdate(sql);
+            statement.executeUpdate("CREATE TABLE IF NOT EXISTS FINANCES (pos VARCHAR NOT NULL, value FLOAT NOT NULL, id INTEGER PRIMARY KEY AUTOINCREMENT, date DATE NOT NULL)");
             statement.close();
         } catch (SQLException e) {
             Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage() + "\n" + Arrays.stream(e.getStackTrace()).toList());
@@ -136,14 +134,32 @@ public class DatabaseManager {
         return null;
     }
 
-    public void createBaseDatabaseStructure(){
-        this.setStatement("CREATE TABLE IF NOT EXISTS FINANCES (pos VARCHAR NOT NULL, value FLOAT NOT NULL, id INTEGER PRIMARY KEY AUTOINCREMENT)");
+    public Date[] getDates() {
+        ResultSet rs = getResultSet("SELECT date FROM FINANCES", conn);
+        try {
+            List<Date> result = new ArrayList<>();
+            while (rs.next()){
+                result.add(rs.getDate("date"));
+            }
+            rs.close();
+            return result.toArray(new Date[0]);
+        } catch (SQLException e) {
+            Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage());
+        }
+        return null;
     }
 
-    public void addEntry(String pos, float value){
+    public void createBaseDatabaseStructure(){
+        this.setStatement();
+    }
+
+    public void addEntry(String pos, float value, Date date){
         try {
-            Statement statement = conn.createStatement();
-            statement.executeUpdate("INSERT INTO finances ('pos', value) VALUES ('" + pos + "', "+ value +")");
+            PreparedStatement statement = conn.prepareStatement("INSERT INTO finances ('pos', value, date) VALUES (?, ?, ?)");
+            statement.setString(1, pos);
+            statement.setFloat(2, value);
+            statement.setDate(3, date);
+            statement.executeUpdate();
             statement.close();
         } catch (SQLException e) {
             Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage() + "\n" + Arrays.stream(e.getStackTrace()).toList());

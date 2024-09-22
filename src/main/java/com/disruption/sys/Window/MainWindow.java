@@ -9,6 +9,9 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Date;
+import java.text.DecimalFormat;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,7 +28,7 @@ public class MainWindow {
     }
 
     public void makeMainWindow() {
-        table = makeTable(new String[]{"Position", "Value", "Id"}, buildPositionTable(manager.getPositions(), manager.getValues(), manager.getIds()));
+        table = makeTable(new String[]{"Position", "Value", "Id", "Date"}, buildPositionTable(manager.getPositions(), manager.getValues(), manager.getIds(), manager.getDates()));
         mainWindow = new JFrame("Disruption Systems Finances");
         mainWindow.setLocationRelativeTo(null);
         mainWindow.setSize(600, 400);
@@ -53,6 +56,7 @@ public class MainWindow {
         AddButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                System.out.println(Date.valueOf(LocalDate.now()));
                 JFrame frame = new JFrame("Add Entry");
                 JButton button = new JButton("Add");
                 JLabel value = new JLabel("Value");
@@ -91,9 +95,9 @@ public class MainWindow {
                     public void actionPerformed(ActionEvent e) {
                         frame.dispose();
                         if (NegcheckBox.isSelected()) {
-                            Main.getManager().addEntry(positionField.getText(), Float.parseFloat("-" + valueField.getText()));
+                            Main.getManager().addEntry(positionField.getText(), Float.parseFloat("-" + valueField.getText()), Date.valueOf(LocalDate.now()));
                         } else if (PoscheckBox.isSelected()) {
-                            Main.getManager().addEntry(positionField.getText(), Float.parseFloat(valueField.getText()));
+                            Main.getManager().addEntry(positionField.getText(), Float.parseFloat(valueField.getText()), Date.valueOf(LocalDate.now()));
                         }
                         mainWindow.dispose();
                         makeMainWindow();
@@ -149,19 +153,20 @@ public class MainWindow {
         TableColumn valColumn = table.getColumn("Value");
         TableColumn idColumn = table.getColumn("Id");
         valColumn.setMaxWidth(80);
-        idColumn.setMaxWidth(80);
+        idColumn.setMaxWidth(0);
+        idColumn.setWidth(0);
     }
 
-    public String[][] buildPositionTable(String[] positions, String[] values, String[] ids){
+    public String[][] buildPositionTable(String[] positions, String[] values, String[] ids, Date[] dates){
         List<String[]> tableList = new ArrayList<>();
         for (int i = 0; i<positions.length; i++) {
-             tableList.add(new String[]{positions[i], values[i] + "€", ids[i]});
+             tableList.add(new String[]{positions[i], new DecimalFormat("0.00").format(Float.parseFloat(values[i])) + "€", ids[i], dates[i].toString()});
         }
         float valBuffer = 0.00f;
         for (String f : values){
             valBuffer += Float.parseFloat(f);
         }
-        tableList.add(new String[]{"Total", valBuffer + "€"});
+        tableList.add(new String[]{"Total", new DecimalFormat("0.00").format(valBuffer) + "€"});
         String[][] table = new String[tableList.size()][];
         return tableList.toArray(table);
     }
