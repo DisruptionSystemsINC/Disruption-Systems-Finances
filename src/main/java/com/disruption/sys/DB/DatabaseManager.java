@@ -1,6 +1,7 @@
 package com.disruption.sys.DB;
 
 import com.disruption.sys.Main;
+import com.disruption.sys.utils.TableRow;
 import com.disruptionsystems.logging.LogLevel;
 import java.sql.*;
 import java.sql.Date;
@@ -24,23 +25,11 @@ public class DatabaseManager {
 
     public Connection getConnection() {return this.conn;}
 
-    private ResultSet getResultSet(String sql, Connection conn) {
-        ResultSet set;
-        try {
-            Statement statement = conn.createStatement();
-            set = statement.executeQuery(sql);
-            return set;
-        } catch (SQLException e) {
-            Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED," + e.getMessage());
-        }
-        return null;
-    }
-
-    private void setStatement() {
+    public void createMainTable(){
         Statement statement = null;
         try {
             statement = conn.createStatement();
-            statement.executeUpdate("CREATE TABLE IF NOT EXISTS FINANCES (pos VARCHAR NOT NULL, value FLOAT NOT NULL, id INTEGER PRIMARY KEY AUTOINCREMENT, date DATE NOT NULL)");
+            statement.executeUpdate("CREATE TABLE IF NOT EXISTS FINANCES (pos VARCHAR NOT NULL, value DOUBLE NOT NULL, id INTEGER PRIMARY KEY AUTOINCREMENT, date DATE NOT NULL)");
             statement.close();
         } catch (SQLException e) {
             Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage() + "\n" + Arrays.stream(e.getStackTrace()).toList());
@@ -48,21 +37,26 @@ public class DatabaseManager {
     }
 
     public String getPosField(String pos) {
-        ResultSet rs = getResultSet("SELECT * FROM FINANCES WHERE POS='" + pos + "'", conn);
-        String result = "";
         try {
-            result = rs.getString("pos");
+            PreparedStatement statement = conn.prepareStatement("SELECT * FROM FINANCES WHERE POS=?");
+            statement.setString(1, pos);
+            ResultSet rs = statement.executeQuery();
+            String result = rs.getString("pos");
             rs.close();
+            statement.close();
+            return result;
         } catch (SQLException e) {
             Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage());
         }
-        return result;
+        return null;
     }
 
     public void delById(String Id) {
         try {
-            Statement statement = conn.createStatement();
-            statement.executeUpdate("DELETE FROM FINANCES WHERE id='" + Id + "'");
+            PreparedStatement st = conn.prepareStatement("DELETE FROM FINANCES WHERE id=?");
+            st.setString(1, Id);
+            st.executeUpdate();
+            st.close();
         } catch (SQLException e) {
             Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage() + "\n" + Arrays.stream(e.getStackTrace()).toList());
         }
@@ -70,94 +64,48 @@ public class DatabaseManager {
 
     public void delByPos(String pos) {
         try {
-            Statement statement = conn.createStatement();
-            statement.executeUpdate("DELETE FROM FINANCES WHERE POS='" + pos + "'");
+            PreparedStatement statement = conn.prepareStatement("DELETE FROM FINANCES WHERE POS=?");
+            statement.setString(1, pos);
+            statement.executeUpdate();
+            statement.close();
         } catch (SQLException e) {
             Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage() + "\n" + Arrays.stream(e.getStackTrace()).toList());
         }
     }
 
-    public float getValue(String pos) {
-        ResultSet rs = getResultSet("SELECT * FROM FINANCES WHERE POS='" + pos + "'", conn);
-        float result = 0.00f;
+    public double getValue(String pos) {
         try {
-            result = rs.getFloat("value");
+            PreparedStatement st = conn.prepareStatement("SELECT * FROM FINANCES WHERE POS=?");
+            st.setString(1, pos);
+            ResultSet rs = st.executeQuery();
+            float result = rs.getFloat("value");
             rs.close();
+            return result;
         } catch (SQLException e) {
             Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage());
         }
-        return result;
+        return 0.00f;
     }
 
-    public String[] getValues() {
-        ResultSet rs = getResultSet("SELECT value FROM FINANCES", conn);
+    public List<TableRow> retrieveEntries(){
         try {
-            List<String> result = new ArrayList<>();
+            PreparedStatement st = conn.prepareStatement("SELECT * FROM FINANCES");
+            ResultSet rs = st.executeQuery();
+            List<TableRow> tableRows = new ArrayList<>();
             while (rs.next()){
-                result.add(rs.getString("value"));
+                tableRows.add(new TableRow(rs.getString(1), rs.getDouble(2), rs.getString(3), rs.getDate(4)));
             }
-            rs.close();
-            return result.toArray(new String[0]);
+            return tableRows;
         } catch (SQLException e) {
-            Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage());
+            throw new RuntimeException(e);
         }
-        return null;
     }
 
-    public String[] getPositions() {
-        ResultSet rs = getResultSet("SELECT pos FROM FINANCES", conn);
+    public void addEntry(String pos, double value, Date date){
         try {
-            List<String> result = new ArrayList<>();
-            while (rs.next()){
-                result.add(rs.getString("pos"));
-            }
-            rs.close();
-            return result.toArray(new String[0]);
-        } catch (SQLException e) {
-            Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage());
-        }
-        return null;
-    }
-
-    public String[] getIds() {
-        ResultSet rs = getResultSet("SELECT id FROM FINANCES", conn);
-        try {
-            List<String> result = new ArrayList<>();
-            while (rs.next()){
-                result.add(rs.getString("id"));
-            }
-            rs.close();
-            return result.toArray(new String[0]);
-        } catch (SQLException e) {
-            Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage());
-        }
-        return null;
-    }
-
-    public Date[] getDates() {
-        ResultSet rs = getResultSet("SELECT date FROM FINANCES", conn);
-        try {
-            List<Date> result = new ArrayList<>();
-            while (rs.next()){
-                result.add(rs.getDate("date"));
-            }
-            rs.close();
-            return result.toArray(new Date[0]);
-        } catch (SQLException e) {
-            Main.getLogger().printToLog(LogLevel.ERROR, "ERROR: STATEMENT COULD NOT BE EXECUTED, " + e.getMessage());
-        }
-        return null;
-    }
-
-    public void createBaseDatabaseStructure(){
-        this.setStatement();
-    }
-
-    public void addEntry(String pos, float value, Date date){
-        try {
-            PreparedStatement statement = conn.prepareStatement("INSERT INTO finances ('pos', value, date) VALUES (?, ?, ?)");
+            PreparedStatement statement = conn.prepareStatement("INSERT INTO FINANCES ('pos', value, date) VALUES (?, ?, ?)");
             statement.setString(1, pos);
-            statement.setFloat(2, value);
+            statement.setDouble(2, value);
             statement.setDate(3, date);
             statement.executeUpdate();
             statement.close();
