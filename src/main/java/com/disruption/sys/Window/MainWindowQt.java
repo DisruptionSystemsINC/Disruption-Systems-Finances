@@ -3,11 +3,11 @@ package com.disruption.sys.Window;
 import com.disruption.sys.DB.DatabaseManager;
 import com.disruption.sys.Main;
 import com.disruption.sys.utils.TableRow;
-import io.qt.NonNull;
+import com.disruptionsystems.DragonLog;
+import com.disruptionsystems.logging.LogLevel;
 import io.qt.core.*;
 import io.qt.gui.*;
 import io.qt.widgets.*;
-
 import java.sql.Date;
 import java.text.DecimalFormat;
 import java.time.LocalDate;
@@ -17,6 +17,7 @@ import java.util.List;
 public class MainWindowQt {
     private QMainWindow mainWindow;
     private QApplication app;
+    private DragonLog logger = Main.getLogger();
 
     public void init(){
         app = QApplication.initialize("Disruption Systems Finances", new String[0]);
@@ -94,6 +95,7 @@ public class MainWindowQt {
             if (isOutgoing.isChecked()) {
                 val -= 2*val;
             }
+            logger.printToLog(LogLevel.INFORMATION, "Adding new Entry");
             Main.getManager().addEntry(pos, val, Date.valueOf(LocalDate.now()));
             inputVal.clear();
             inputPos.clear();
@@ -101,6 +103,7 @@ public class MainWindowQt {
         });
 
         deleteButton.clicked.connect(() -> {
+            logger.printToLog(LogLevel.INFORMATION, "Deletion process started");
             if (table.selectionModel().hasSelection()) {
                 QItemSelection sel = table.selectionModel().getSelection();
                 double val = Double.parseDouble((String) sel.get(0).indexes().get(1).data());
@@ -111,6 +114,7 @@ public class MainWindowQt {
         });
 
         confirmDeleteButton.clicked.connect(() -> {
+            logger.printToLog(LogLevel.INFORMATION, "Deletion confirmed");
             QItemSelection sel = table.selectionModel().getSelection();
             String val = (String) sel.get(0).indexes().get(2).data();
             Main.getManager().delById(val);
@@ -155,6 +159,7 @@ public class MainWindowQt {
     }
 
     private void generateTableView(QTableView table){
+        logger.printToLog(LogLevel.INFORMATION, "Regenerating table...");
         DecimalFormat df = new DecimalFormat("0.00");
         DatabaseManager dbman = Main.getManager();
         List<TableRow> rows = dbman.retrieveEntries();

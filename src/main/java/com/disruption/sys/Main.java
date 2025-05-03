@@ -2,8 +2,10 @@ package com.disruption.sys;
 
 import java.sql.Connection;
 import com.disruption.sys.DB.DatabaseManager;
+import com.disruption.sys.Window.MainWindowQt;
 import com.disruption.sys.testing.DataBaseTest;
 import com.disruptionsystems.*;
+import com.disruptionsystems.logging.LogLevel;
 
 import javax.xml.crypto.Data;
 
@@ -21,6 +23,8 @@ public class Main {
       conn = manager.establishConnection(databaseAddress);
       DataBaseTest test = new DataBaseTest();
       test.verifyDatabaseFunctionality(manager);
+      logger.printToLog(LogLevel.INFORMATION, "Starting Application");
+      new MainWindowQt().init();
    }
 
    public static Connection getConnection(){
